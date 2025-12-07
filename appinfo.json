@@ -1,1 +1,62 @@
-{"enableMultiJS": false, "resources": {"media": [{"file": "images/check.png", "targetPlatforms": null, "name": "IMAGE_CHECK", "type": "bitmap"}, {"file": "images/cross.png", "targetPlatforms": null, "name": "IMAGE_CROSS", "type": "png"}]}, "watchapp": {"watchface": false}, "shortName": "Tea", "companyName": "astosia", "uuid": "cf418523-f867-453d-8b4e-e04ea2f9df16", "targetPlatforms": ["aplite", "basalt", "chalk","diorite"], "capabilities": ["configurable"], "appKeys": {"PERSIST_TEA_MATE": 13, "PERSIST_TEA_BLACK": 10, "PERSIST_TEA_PUERH": 15, "PERSIST_TEA_ROOIBOS": 16, "PERSIST_TEA_HERBAL": 12, "PERSIST_TEA_OOLONG": 14, "PERSIST_TEMP_UNIT": 9, "PERSIST_TEA_MATCHA": 18, "PERSIST_TEA_WHITE": 17, "PERSIST_READY": 8, "PERSIST_TEA_GREEN": 11}, "longName": "Tea's Ready", "projectType": "native", "sdkVersion": "3", "versionLabel": "1.2"}
+{
+    "enableMultiJS": false, 
+    "resources": 
+        {"media": 
+            [
+                {
+                    "file": "images/check.png", 
+                    "targetPlatforms": null, 
+                    "name": "IMAGE_CHECK", 
+                    "type": "bitmap"
+                }, 
+                {
+                    "file": "images/cross.png",
+                    "targetPlatforms": null,
+                    "name": "IMAGE_CROSS",
+                    "type": "png"
+                },
+                {
+                    "menuIcon": true,
+                    "type": "png",
+                    "name": "IMAGE_MENU_ICON",
+                    "file": "images/25x25Tea.png"
+                }
+            ]
+        },
+    "watchapp": 
+        {
+            "watchface": false
+        },
+    "shortName": "Tea",
+    "companyName": "astosia",
+    "uuid": "cf418523-f867-453d-8b4e-e04ea2f9df16",
+    "targetPlatforms":
+        [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+    "capabilities":
+        [
+            "configurable"
+        ], 
+    "appKeys":
+     {
+        "PERSIST_TEA_MATE": 13,
+        "PERSIST_TEA_BLACK": 10,
+        "PERSIST_TEA_PUERH": 15,
+        "PERSIST_TEA_ROOIBOS": 16, 
+        "PERSIST_TEA_HERBAL": 12, 
+        "PERSIST_TEA_OOLONG": 14, 
+        "PERSIST_TEMP_UNIT": 9, 
+        "PERSIST_TEA_MATCHA": 18, 
+        "PERSIST_TEA_WHITE": 17, 
+        "PERSIST_READY": 8, 
+        "PERSIST_TEA_GREEN": 11
+    }, 
+    "longName": "Tea's Ready",
+    "projectType": "native", 
+    "sdkVersion": "3", 
+    "versionLabel": "1.5"
+}
