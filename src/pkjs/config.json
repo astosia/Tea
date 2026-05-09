@@ -1,0 +1,304 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Tea's Ready"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "General"
+      },
+      {
+        "type": "select",
+        "messageKey": "PERSIST_TEMP_UNIT",
+        "label": "Temperature unit",
+        "defaultValue": "0",
+        "options": [
+          { "label": "Celsius (°C)", "value": "0" },
+          { "label": "Fahrenheit (°F)", "value": "1" },
+          { "label": "Kelvin (K)", "value": "2" },
+          { "label": "Rankine (°R)", "value": "3" }
+        ]
+      },
+      {
+        "type": "radiogroup",
+        "messageKey": "PERSIST_READY",
+        "label": "Cooldown Alert",
+        "defaultValue": "1",
+        "options": [
+          { "label": "No Cooldown Alert", "value": "0" },
+          { "label": "Alert once tea is cool enough to drink (cooldown time varies by type of tea)", "value": "1" },
+          { "label": "Custom Cooldown Adjustment (use slider below)", "value": "5" }
+        ]
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_READY_CUSTOM",
+        "label": "Cooldown Adjustment (minutes are added to or removed from standard alert)",
+        "defaultValue": 0,
+        "min": -4,
+        "max": 15,
+        "step": 0.5
+      }
+    ]
+  },
+    {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Black Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_BLACK",
+        "label": "Steep time (minutes)",
+        "defaultValue": 4,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "black_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Green Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_GREEN",
+        "label": "Steep time (minutes)",
+        "defaultValue": 2,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "green_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Herbal Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_HERBAL",
+        "label": "Steep time (minutes)",
+        "defaultValue": 5,
+        "min": 0.5,
+        "max": 15,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "herbal_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Mate"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_MATE",
+        "label": "Steep time (minutes)",
+        "defaultValue": 4,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "mate_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Oolong Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_OOLONG",
+        "label": "Steep time (minutes)",
+        "defaultValue": 3,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "oolong_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Pu-erh Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_PUERH",
+        "label": "Steep time (minutes)",
+        "defaultValue": 3,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "puerh_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Rooibos Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_ROOIBOS",
+        "label": "Steep time (minutes)",
+        "defaultValue": 5,
+        "min": 0.5,
+        "max": 15,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "rooibos_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "White Tea"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_WHITE",
+        "label": "Steep time (minutes)",
+        "defaultValue": 3,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "white_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Matcha"
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_TEA_MATCHA",
+        "label": "Steep time (minutes)",
+        "defaultValue": 0.5,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.5
+      },
+      {
+        "type": "toggle",
+        "messageKey": "matcha_hide",
+        "label": "Show in menu",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Custom Tea"
+      },
+      {
+        "type": "input",
+        "messageKey": "custom_name",
+        "label": "Tea name (leave blank to hide from menu)",
+        "defaultValue": "",
+        "attributes": {
+          "maxlength": 15,
+          "placeholder": "e.g. Breakfast Tea"
+        }
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_CUSTOM_TIME",
+        "label": "Steep time (minutes)",
+        "defaultValue": 3,
+        "min": 0.5,
+        "max": 15,
+        "step": 0.5
+      },
+      {
+        "type": "slider",
+        "messageKey": "PERSIST_CUSTOM_TEMP",
+        "label": "Temperature (°C)",
+        "defaultValue": 96,
+        "min": 60,
+        "max": 100,
+        "step": 1
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]
